@@ -3,10 +3,10 @@ from suds.client import Client
 # URL del WSDL que describe el servicio
 wsdl_url = 'http://localhost:8733/Design_Time_Addresses/MathService/Math/?wsdl'
 
-# Crear cliente de Zeep para interactuar con el servicio
+# Crear cliente para interactuar con el servicio
 client = Client(wsdl_url)
 
-#print (client)
+print (client)
 
 while(True):
     print("Introduzca: \n - 1) para saber si un número es primo\n - 2) para sumar tuplas\n - exit) para salir")
